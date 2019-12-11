@@ -1,0 +1,25 @@
+.price-block.ae
+  h3.membership.leftho  #{plan.name}
+  .price.leftho
+    span $#{plan.price}
+    p /month
+  .desc.leftho that&apos;s only $#{plan.dayPrice} per meal
+  .hr2
+    hr
+  ol.benefits.leftho
+    li.leftho
+      i.fas.fa-check-circle
+      | #{plan.mealPerDay} meal every day
+    li.leftho
+      i.fas.fa-check-circle
+      | Order 24/7
+    li.leftho
+      i.fas.fa-check-circle
+      | Access to newest creations
+    li.leftho
+      i.fas.fa-check-circle
+      | Free delivery
+  .hr2
+    hr
+  div
+    a#anchor1.options.signup(href='#') Sign up now

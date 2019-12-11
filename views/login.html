@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>omifood app</title>
+  <script src="https://kit.fontawesome.com/e5119d8d19.js"></script>
+  <link rel="stylesheet" href="style/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,400,600&amp;display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Poiret+One&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.css">
+  <link rel="stylesheet" href="style/query.css">
+  <link rel="stylesheet" href="style/form_style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul><a id="a1" href="#delivery">
+          <li>FOOD DELIVERY NOW</li></a><a href="#how">
+          <li>HOW IT WORKS</li></a><a href="#city">
+          <li>OUR CITIES</li></a><a href="#signup">
+          <li>SIGN UP</li></a></ul>
+      <div class="bar">
+        <div class="com"></div>
+        <div class="com"></div>
+        <div class="com"></div>
+      </div>
+      <div class="logo upper_case"><i class="fas fa-seedling"></i> omifood</div>
+    </nav>
+    <div class="login-page">
+      <div class="form">
+        <form class="register-form">
+          <input id="firstName" type="text" placeholder="firstName">
+          <input id="lastName" type="text" placeholder="lastName">
+          <input id="re-email" type="text" placeholder="email address">
+          <input id="re-pass" type="password" placeholder="password">
+          <input id="re-conpass" type="password" placeholder="retype password">
+          <button type="submit">create</button>
+          <p class="message">Already registered? <a href="#">Sign In</a></p>
+        </form>
+        <form class="login-form">
+          <input id="lo-email" type="text" placeholder="email">
+          <input id="lo-pass" type="password" placeholder="password">
+          <button type="submit">login</button>
+          <p class="message">Not registered? <a href="#">Create an account</a></p>
+        </form>
+      </div>
+    </div>
+  </header>
+  <footer>
+    <div class="links">
+      <ul>
+        <li><a href="#">about us</a></li>
+        <li><a href="#">blog</a></li>
+        <li><a href="#">press</a></li>
+        <li><a href="#">ios app</a></li>
+        <li><a href="#">android app</a></li>
+      </ul>
+      <ul>
+        <li><a href="https://www.facebook.com/profile.php?id=100010731943696"><i class="fab fa-facebook-square"></i></a></li>
+        <li><a href="https://www.facebook.com/profile.php?id=100010731943696"><i class="fab fa-twitter-square"></i></a></li>
+        <li><a href="https://www.instagram.com/niti.n_n.itin/"><i class="fab fa-instagram"></i></a></li>
+        <li><a href="https://github.com/Nk095291"><i class="fab fa-github"></i></a></li>
+      </ul>
+    </div>
+    <p>&copy; made with love by nitin kumar</p>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="js/demo.js"></script>
+  <script>
+     $('.message a').click(function(){
+     $('form').animate({height: "toggle", opacity: "toggle"}, "slow");
+    });
+  </script>
+  <script src="js/form_script.js"></script>
+</body>

@@ -1,0 +1,12 @@
+extends template
+block append header 
+    include showcasePlans
+block append content
+    section#plans.bg1
+        .heading2
+            h2.upper_case.title2.ae2 OUR PLANS
+        .div_hr
+            hr 
+        .plan-section
+            for plan in plans
+                include plan

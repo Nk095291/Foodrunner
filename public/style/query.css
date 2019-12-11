@@ -1,0 +1,297 @@
+@media only screen and (max-width:1220px)
+{
+    .blocks i{
+       
+        font-size: 3rem;
+       
+    }
+    .passage{
+        font-size: 1.2rem;
+    }
+
+    .playstore a:nth-child(1){
+        width:16%;
+    }
+    .playstore a:nth-child(2){
+        width: 21%;
+    }
+    .cityphoto img{
+       
+        height: 160px;
+    }
+    .price-block{
+       
+        width: 30%;
+      
+    }
+    .links ul li a i{
+        font-size: 2rem;
+    }
+     ul li{
+        margin: 40px 10px 0 10px;
+    } 
+    .cityphoto img{
+        width: 200px;
+        max-width: 100%;
+        height: 160px;
+    } 
+}
+
+@media only screen and (max-width:860px){
+    .cityphoto img{
+        width: 160px;
+        max-width: 100%;
+        height: 100px;
+    }
+    
+    .playstore a:nth-child(1){
+        width:21%;
+    }
+    .playstore a:nth-child(2){
+        width: 25%;
+    }
+    .cityphoto img{
+       
+        height: 120px;
+    }
+    .status i{
+        font-size: 1.5rem;
+    }
+     ul li{
+        margin: 40px 8px 0 8px;
+        font-size: 1rem;
+    } 
+    header h1 {
+        font-size: 2.5rem;
+    }
+    .upper_case{
+        font-size: 1.5rem;
+    }
+    .title2{
+        font-size: 2rem;
+        margin: 30px 0;
+    }
+    .div_hr{
+        margin: 30px auto;
+    }
+    /* order is important here */
+    .num{
+        width: 3rem;
+        height: 3rem;
+        font-size: 1rem;
+        line-height: 3rem;
+    }
+  
+}
+
+@media only screen and (max-width:650px)
+{
+    nav ul{
+        /* position: absolute; */
+        position: fixed;
+        flex-direction: column;
+        justify-content: space-around;
+        top:40px;
+        right: 0;
+        background-color: black;
+        width: 70%;
+        z-index: 2;
+        /* border-top-left-radius: 3%; */
+        transition: transform 0.5s ease-in-out;
+        transform: translateX(100%);
+        border-bottom-left-radius: 15%;
+    }
+    ul a:hover{
+        padding: 0;
+
+    }
+    .showmenu{
+        transform: translateX(0%);
+    }
+    nav ul li{
+        font-size: 1.2rem;
+        margin:60px 0 ;
+
+    }
+    .options{
+        padding: 10px;
+    }
+    .com{
+        transition-duration: 0.5s;
+    }
+    .line1{
+        transform: rotate(-45deg) translate(-6px);
+    }
+
+    .line2{
+        opacity: 0;
+    }
+    .line3{
+        transform: rotate(45deg) translate(-11px,-5px) ;
+    }
+    
+    nav a{
+        display:flex;
+        justify-content: center;
+    }
+    nav ul a:hover{
+        
+        padding:0 10px;
+        border:none;
+       
+    }
+    nav{
+        background-color: black;
+        height: 40px;
+        position: fixed;
+        width: 100%;
+        z-index: 2;
+    }
+    .bar{
+        display: block;
+    }
+    header{
+        height: 800px;;
+    }
+    .feature{
+        flex-direction: column;
+    }
+    .blocks{
+        width: 80%;
+    }
+    .iphone img{
+        width: 80%;
+    }
+    .iphone{
+        height: fit-content;
+    }
+    .passage{
+        font-size: 0.9rem;
+    }
+    .num{
+        width: 2rem;
+        height: 2rem;
+        font-size: 0.8rem;
+        line-height: 2rem;
+    }
+    .playstore a:nth-child(1){
+        width:30%;
+    }
+    .playstore a:nth-child(2){
+        width: 35%;
+    }
+    .cities{
+        flex-direction: column;
+    }
+    .city{
+        width: 80%;
+        margin:5px auto;
+    }
+    .cityphoto img{
+        width: 240px;
+    }
+    .icons{
+        margin: 0 auto;
+    }
+    
+    .review{
+        width:90%;
+        margin:0 auto;
+        flex-direction: row-reverse;
+    }
+
+    .users-reviews{
+        flex-direction: column;
+    }
+    .user-img{
+         padding-top: 50px;
+    }
+    .price-section{
+        flex-direction: column;
+    }
+    .price-block{
+        width:80%;
+        margin: 0 auto;
+    }
+    .links{
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    ul li{
+        margin: 10px 8px 10px 8px;
+        font-size: 0.9rem;
+    } 
+    footer p{
+        margin:4% auto;
+    }
+    .title2{
+        font-size: 2rem;
+        margin: 20px 0;
+    }
+    .div_hr{
+        margin: 20px auto;
+        width: 20%;
+    }
+}
+
+
+@media only screen and (max-width:375px)
+{
+    header h1{
+        font-size: 1.5rem;
+        letter-spacing: 1.5px;
+    }
+    .options{
+        padding:12px;
+        font-size: 1rem;
+    }
+    .heading2{
+        height: 178px;
+    }
+    .entry{
+        width: 90%;
+    }
+    .playstore a:nth-child(1){
+        width:50%;
+        margin-left: 25%;
+    }
+    .playstore a:nth-child(2){
+        width: 55%;
+    }
+
+
+}
+
+@media only screen and (max-width:320px)
+{
+    header h1{
+        font-size: 1.5rem;
+        letter-spacing: 1.5px;
+    }
+    .options{
+        padding:10px;
+        font-size: 0.8rem;
+    }
+    .heading2{
+        height: 178px;
+    }
+    .entry{
+        width: 90%;
+    }
+    .playstore a:nth-child(1){
+        width:50%;
+        margin-left: 25%;
+    }
+    .playstore a:nth-child(2){
+        width: 55%;
+    }
+    .title2{
+        font-size: 2rem;
+        margin: 15px 0;
+    }
+    .div_hr{
+        margin: 15px auto;
+        width: 25%;
+    }
+
+}

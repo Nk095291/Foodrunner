@@ -1,0 +1,32 @@
+extends template
+block append head
+    link(rel='stylesheet' href='style/form_style.css')
+block append header
+    .login-page
+        .form
+            form.register-form
+                input#firstName(type='text' placeholder='firstName')
+                input#lastName(type='text' placeholder='lastName')
+                input#re-email(type='text' placeholder='email address')
+                input#re-pass(type='password' placeholder='password')
+                input#re-conpass(type='password' placeholder='retype password')
+                button(type='submit') create
+                p.message
+                    | Already registered? 
+                    a(href='#') Sign In
+            form.login-form
+                input#lo-email(type='text' placeholder='email')
+                input#lo-pass(type='password' placeholder='password')
+                button(type='submit') login
+                p.message
+                    a(href='/forget') forget password?
+                p.message
+                    | Not registered? 
+                    a(href='#') Create an account
+block append footer
+    script.
+          $('.message a').click(function(){
+          $('form').animate({height: "toggle", opacity: "toggle"}, "slow");
+         });
+         
+    script(src='js/form_script.js')

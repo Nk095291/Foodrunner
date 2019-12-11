@@ -1,0 +1,23 @@
+nav
+  ul
+    a#a1(href='/')
+      li HOME
+    a(href='/plans')
+      li PLANS
+    a(href='/#review')
+      li REVIEWS
+    if user
+      a(href='/profile')
+        li PROFILE
+      a(href='api/user/logout')
+        li LOGOUT     
+    else
+      a(href='/login')
+        li SIGN UP/LOGIN
+  .bar
+    .com
+    .com
+    .com
+  .logo.upper_case
+    i.fas.fa-seedling
+    |  omifood
