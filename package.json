@@ -16,6 +16,6 @@
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.7.1",
     "pug-cli": "^1.0.0-alpha6",
-    "validator": "^11.1.0"
+    "validator": "^13.7.0"
   }
 }
